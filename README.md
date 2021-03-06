@@ -1,6 +1,6 @@
-# isli.com (isli.com)
+# chat by bay
 
-IS
+A chatting app
 
 ## Install the dependencies
 ```bash
