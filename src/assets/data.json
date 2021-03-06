@@ -1,0 +1,40 @@
+{
+	"users": {
+		"USERID1": {
+			"name": "Baygeldi",
+			"email": "baygeldicolukov@gmail.com",
+			"online": true
+		},
+		"USERID2": {
+			"name": "Shanazar",
+			"email": "shanazarahmedov@gmail.com",
+			"online": true
+		}
+	},
+	"chats": {
+		"USERID1": {
+			"USERID2": {
+				"MESSAGEID1": {
+					"text": "Shanny nahili?",
+					"from": "them"
+				},
+				"MESSAGEID2": {
+					"text": "Gowy ozin natyan?",
+					"from": "me"
+				}
+			}
+		},
+		"USERID2": {
+			"USERID1": {
+				"MESSAGEID1": {
+					"text": "Shanny nahili?",
+					"from": "me"
+				},
+				"MESSAGEID2": {
+					"text": "Gowy ozin natyan?",
+					"from": "them"
+				}
+			}
+		}
+	}
+}

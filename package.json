@@ -1,8 +1,8 @@
 {
-  "name": "isli.com",
+  "name": "chatBy",
   "version": "0.0.1",
-  "description": "IS",
-  "productName": "isli.com",
+  "description": "chat by Baygeldi",
+  "productName": "chatBy",
   "author": "baygeldicolukov <baygeldicolukov@gmail.com>",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
+    "firebase": "^8.2.9",
     "quasar": "^1.0.0"
   },
   "devDependencies": {

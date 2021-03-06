@@ -18,8 +18,10 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/boot-files
     boot: [
-      
+
       'axios',
+
+      'firebase'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -109,9 +111,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `isli.com`,
-        short_name: `isli.com`,
-        description: `IS`,
+        name: `chatBy`,
+        short_name: `chatBy`,
+        description: `A chat with quasar`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -176,7 +178,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'isli.com'
+        appId: 'chatBy'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration
